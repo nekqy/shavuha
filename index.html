@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shavuha</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="src/jquery.youtubebackground.js"></script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jquery Youtube Fullscreen Background Video</title>
+    <meta name="keywords" content="бизнес, донер, гирос, кафе, общепит, продукты, ресторан, фастфуд, шаверма, шавуха, шаурма">
+    <meta  name="description" content="Домен продается. Отличное название для сайта, рекламирующего бизнес по продаже шаурмы/шавермы/донер кебаба. Сленговое слово в названии ярко выделит бренд и привлечет аудиторию.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Twitter Boostrap for Demo -->
+    <link rel="stylesheet" href="http:////maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- styles for video player -->
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+<div id="background-video" class="background-video">
+</div>
+
+<div class="padding container">
+    <h1>Домент продается!</h1>
+    <p class="lead">Отличное название для сайта, рекламирующего бизнес по продаже шаурмы/шавермы/донер кебаба.</p>
+    <p class="lead">Сленговое слово в названии ярко выделит бренд и привлечет аудиторию.</p>
+    <h2><a href="https://www.reg.ru/domain/shop/lot/shavuha.ru#">Перейти к предложению на REG.RU</a></h2>
+</div>
+
+<script>
+    $('#background-video').YTPlayer({
+        fitToBackground: true,
+        videoId: 'vhVzM-xT1PQ',
+        pauseOnScroll: false,
+        playerVars: {
+            modestbranding: 0,
+            autoplay: 1,
+            controls: 0,
+            showinfo: 0,
+            wmode: 'transparent',
+            branding: 0,
+            rel: 0,
+            autohide: 0,
+            origin: window.location.origin
+        }
+    });
+</script>
+</body>
+</html>
